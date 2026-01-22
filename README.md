@@ -47,11 +47,18 @@ This system analyzes the **linguistic patterns** of a news article and predicts 
 
 ## 📂 Dataset
 
-- **Fake and Real News Dataset (Kaggle)**
-- Contains ~44,000 labeled news articles
-- Two classes:
-  - `Real` (Reuters-style news)
-  - `Fake` (Opinionated / sensational news)
+This project uses the **Fake and Real News Dataset** from Kaggle.
+
+🔗 Dataset Link:  
+https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset
+
+The dataset contains approximately 44,000 labeled news articles:
+- `Fake.csv` – Fake / misleading news articles
+- `True.csv` – Real news articles (Reuters-style)
+
+⚠️ **Note:**  
+Dataset files are not included in this repository due to GitHub file size limits and best practices.  
+Please download the dataset directly from Kaggle and place the CSV files inside the `data/` folder.
 
 ---
 
